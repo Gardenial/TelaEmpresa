@@ -1,0 +1,15 @@
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\bin\Debug\TelaEmpresa.exe.config
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\bin\Debug\TelaEmpresa.exe
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\bin\Debug\TelaEmpresa.pdb
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.csproj.AssemblyReference.cache
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.csproj.SuggestedBindingRedirects.cache
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.Empresa.resources
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.Properties.Resources.resources
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.csproj.GenerateResource.cache
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.exe
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.pdb
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.Atualizar.resources
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.Cadastrar.resources
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.Consultar.resources
+C:\Users\gustavo.noliveira7\source\repos\TelaEmpresa\TelaEmpresa\obj\Debug\TelaEmpresa.Excluir.resources
