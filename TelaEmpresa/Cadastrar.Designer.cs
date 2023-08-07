@@ -37,8 +37,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.telefone = new System.Windows.Forms.MaskedTextBox();
+            this.uf = new System.Windows.Forms.MaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -99,7 +99,7 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(156, 120);
-            this.maskedTextBox1.Mask = "999.999.999-99";
+            this.maskedTextBox1.Mask = "99999999999";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(326, 20);
             this.maskedTextBox1.TabIndex = 2;
@@ -119,6 +119,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(326, 20);
             this.textBox2.TabIndex = 4;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label6
             // 
@@ -131,21 +132,23 @@
             this.label6.Text = "Telefone";
             this.label6.Click += new System.EventHandler(this.label2_Click);
             // 
-            // maskedTextBox2
+            // telefone
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(158, 222);
-            this.maskedTextBox2.Mask = "(99) 9999-9999";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(326, 20);
-            this.maskedTextBox2.TabIndex = 5;
+            this.telefone.Location = new System.Drawing.Point(158, 222);
+            this.telefone.Mask = "(99) 9999-9999";
+            this.telefone.Name = "telefone";
+            this.telefone.Size = new System.Drawing.Size(326, 20);
+            this.telefone.TabIndex = 5;
+            this.telefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.telefone_MaskInputRejected);
             // 
-            // maskedTextBox3
+            // uf
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(158, 259);
-            this.maskedTextBox3.Mask = "aa";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(326, 20);
-            this.maskedTextBox3.TabIndex = 6;
+            this.uf.Location = new System.Drawing.Point(158, 259);
+            this.uf.Mask = "aa";
+            this.uf.Name = "uf";
+            this.uf.Size = new System.Drawing.Size(326, 20);
+            this.uf.TabIndex = 6;
+            this.uf.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.uf_MaskInputRejected);
             // 
             // button1
             // 
@@ -155,6 +158,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Cadastrar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Cadastrar
             // 
@@ -162,8 +166,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 442);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.uf);
+            this.Controls.Add(this.telefone);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.maskedTextBox1);
@@ -194,8 +198,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox telefone;
+        private System.Windows.Forms.MaskedTextBox uf;
         private System.Windows.Forms.Button button1;
     }
 }

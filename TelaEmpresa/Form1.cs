@@ -23,8 +23,10 @@ namespace TelaEmpresa
             cad = new Cadastrar();
             con = new Consultar();
             atu = new Atualizar();
-            exc = new Excluir();
+            exc = new Excluir(); 
         }//Fim do construtor
+
+
 
         private void Empresa_Load(object sender, EventArgs e)
         {
